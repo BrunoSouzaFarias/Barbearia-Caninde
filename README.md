@@ -229,6 +229,67 @@ O site foi desenvolvido com abordagem mobile-first e é totalmente responsivo:
 💬 WhatsApp: Configurado no código  
 🗺️ [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=R.+Paulo+de+Avelar,+1001+-+Vila+Dom+Pedro+II,+S%C3%A3o+Paulo+-+SP,+02243-010)
 
+## 🌐 Hospedagem
+
+O site pode ser hospedado em várias plataformas gratuitas. Aqui estão as melhores opções:
+
+### GitHub Pages (Recomendado - Mais Simples)
+
+Como o repositório já está no GitHub, você pode usar o GitHub Pages gratuitamente:
+
+1. Acesse o repositório no GitHub
+2. Vá em **Settings** (Configurações)
+3. Role até a seção **Pages** no menu lateral
+4. Em **Source**, selecione:
+   - Branch: `main`
+   - Folder: `/ (root)`
+5. Clique em **Save**
+6. Aguarde alguns minutos e seu site estará disponível em:
+   ```
+   https://brunosouzafarias.github.io/Barbearia-Caninde/
+   ```
+
+**Vantagens:**
+- ✅ Totalmente gratuito
+- ✅ HTTPS automático
+- ✅ Atualiza automaticamente a cada push
+- ✅ Sem necessidade de configuração adicional
+
+### Netlify
+
+1. Acesse [netlify.com](https://www.netlify.com)
+2. Faça login com sua conta GitHub
+3. Clique em **Add new site** → **Import an existing project**
+4. Selecione o repositório `Barbearia-Caninde`
+5. Deploy automático! Seu site ficará em: `https://barbearia-caninde.netlify.app`
+
+**Vantagens:**
+- ✅ Gratuito com CDN global
+- ✅ Deploy contínuo automático
+- ✅ HTTPS automático
+- ✅ Custom domain gratuito
+
+### Vercel
+
+1. Acesse [vercel.com](https://vercel.com)
+2. Faça login com GitHub
+3. Clique em **Add New Project**
+4. Importe o repositório `Barbearia-Caninde`
+5. Deploy instantâneo!
+
+**Vantagens:**
+- ✅ Gratuito
+- ✅ Deploy muito rápido
+- ✅ Integração perfeita com GitHub
+- ✅ HTTPS automático
+
+### Outras Opções
+
+- **Surge.sh** - Deploy via linha de comando
+- **Firebase Hosting** - Google Firebase
+- **Cloudflare Pages** - CDN global
+- **Render** - Deploy simples e rápido
+
 ## 👤 Autor
 
 **Bruno de Souza Farias**

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Barbearia Canindé - Tradição, estilo e respeito. Cortes modernos, barba e atendimento de qualidade em Canindé - CE.">
+    <meta name="keywords" content="barbearia, corte de cabelo, barba, Canindé, barbeiro, design de barba, sobrancelha">
+    <meta name="author" content="Bruno de Souza Farias">
+    <meta property="og:title" content="Barbearia Canindé - Tradição, Estilo e Respeito">
+    <meta property="og:description" content="Espaço tradicional dedicado ao cuidado masculino, oferecendo cortes modernos e atendimento de qualidade.">
+    <meta property="og:type" content="website">
+    <title>Barbearia Canindé - Tradição, Estilo e Respeito</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header" id="inicio">
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <h1>Barbearia Canindé</h1>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="btn-agendar" id="btnAgendarTopo">Agendar horário</button>
+                    <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h2>Barbearia Canindé</h2>
+                <p class="subtitulo">Tradição, estilo e respeito</p>
+                <button class="btn-hero" id="btnAgendarHero">Agendar horário</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre Nós</h2>
+            <div class="sobre-content">
+                <div class="sobre-imagem">
+                    <!-- Substitua a URL pela sua imagem local: src="imagens/barbearia-sobre.jpg" -->
+                    <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=800&q=80" alt="Interior da Barbearia Canindé" loading="lazy">
+                </div>
+                <div class="sobre-texto">
+                    <p>
+                        A <strong>Barbearia Canindé</strong> é um espaço tradicional dedicado ao cuidado masculino, 
+                        oferecendo cortes modernos, barba e atendimento de qualidade em um ambiente confortável. 
+                        Com uma equipe experiente e comprometida, valorizamos a tradição da barbearia clássica 
+                        aliada às técnicas mais atuais do mercado.
+                    </p>
+                    <p>
+                        Nosso ambiente foi cuidadosamente projetado para proporcionar uma experiência única, 
+                        onde cada cliente se sente valorizado e sai com um visual impecável.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section class="servicos" id="servicos">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <div class="servico-icon">✂️</div>
+                    <h3>Corte Masculino</h3>
+                    <p>Cortes modernos e clássicos realizados com técnica e precisão.</p>
+                    <div class="servico-preco">R$ 25,00</div>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">🧔</div>
+                    <h3>Barba</h3>
+                    <p>Design e modelagem de barba para um visual impecável.</p>
+                    <div class="servico-preco">R$ 20,00</div>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">✨</div>
+                    <h3>Corte + Barba</h3>
+                    <p>Pacote completo: corte de cabelo e design de barba.</p>
+                    <div class="servico-preco">R$ 40,00</div>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">👁️</div>
+                    <h3>Sobrancelha</h3>
+                    <p>Design de sobrancelhas para valorizar seu rosto.</p>
+                    <div class="servico-preco">R$ 15,00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Galeria -->
+    <section class="galeria" id="galeria">
+        <div class="container">
+            <h2 class="section-title">Nossa Galeria</h2>
+            <div class="galeria-grid">
+                <!-- Substitua as URLs pelas suas imagens locais: src="imagens/galeria1.jpg" -->
+                <div class="galeria-item" data-lightbox="galeria">
+                    <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=600&q=80" alt="Barbeiro trabalhando" loading="lazy">
+                    <div class="galeria-overlay">
+                        <span class="galeria-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="galeria-item" data-lightbox="galeria">
+                    <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=600&q=80" alt="Corte de cabelo" loading="lazy">
+                    <div class="galeria-overlay">
+                        <span class="galeria-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="galeria-item" data-lightbox="galeria">
+                    <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=600&q=80" alt="Design de barba" loading="lazy">
+                    <div class="galeria-overlay">
+                        <span class="galeria-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="galeria-item" data-lightbox="galeria">
+                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=600&q=80" alt="Ambiente da barbearia" loading="lazy">
+                    <div class="galeria-overlay">
+                        <span class="galeria-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="galeria-item" data-lightbox="galeria">
+                    <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=600&q=80" alt="Equipamentos profissionais" loading="lazy">
+                    <div class="galeria-overlay">
+                        <span class="galeria-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="galeria-item" data-lightbox="galeria">
+                    <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=600&q=80" alt="Atendimento personalizado" loading="lazy">
+                    <div class="galeria-overlay">
+                        <span class="galeria-icon">🔍</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Depoimentos -->
+    <section class="depoimentos" id="depoimentos">
+        <div class="container">
+            <h2 class="section-title">O Que Nossos Clientes Dizem</h2>
+            <div class="depoimentos-grid">
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="depoimento-texto">
+                        "Cliente a mais de 30 anos, não é preciso dizer mais nada né?"
+                    </p>
+                    <div class="depoimento-autor">
+                        <strong>Marcelo Caires</strong>
+                        <span>Cliente há mais de 30 anos</span>
+                    </div>
+                </div>
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="depoimento-texto">
+                        "Profissionais de primeira e ótimo atendimento com boa localização e estacionamento."
+                    </p>
+                    <div class="depoimento-autor">
+                        <strong>Adriano Buracosky</strong>
+                        <span>Local Guide · Google</span>
+                    </div>
+                </div>
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="depoimento-texto">
+                        "Corto o meu cabelo com o Canindé há mais de 25 anos, sempre profissional. 
+                        Deus abençoe a todos."
+                    </p>
+                    <div class="depoimento-autor">
+                        <strong>Erick Moriyama</strong>
+                        <span>Cliente há mais de 25 anos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section class="contato" id="contato">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contato-content">
+                <div class="contato-info">
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-text">
+                            <h3>Endereço</h3>
+                            <p>R. Paulo de Avelar, 1001 - Vila Dom Pedro II<br>São Paulo - SP, 02243-010</p>
+                            <a href="https://www.google.com/maps/search/?api=1&query=R.+Paulo+de+Avelar,+1001+-+Vila+Dom+Pedro+II,+S%C3%A3o+Paulo+-+SP,+02243-010" target="_blank" rel="noopener noreferrer" class="link-maps">
+                                Ver no Google Maps →
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🕐</div>
+                        <div class="info-text">
+                            <h3>Horário de Funcionamento</h3>
+                            <p>Segunda a Sexta: 08:00 - 18:00<br>
+                               Sábado: 08:00 - 16:00<br>
+                               Domingo: Fechado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contato-whatsapp">
+                    <button class="btn-whatsapp" id="btnWhatsApp">
+                        <span class="whatsapp-icon">💬</span>
+                        Fale conosco no WhatsApp
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Barbearia Canindé – Todos os direitos reservados</p>
+            <p class="footer-credits">Criado com amor e carinho por <a href="https://brunosouzafarias.github.io/" target="_blank" rel="noopener noreferrer">Bruno de Souza Farias</a></p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Fechar">&times;</button>
+        <button class="lightbox-prev" id="lightboxPrev" aria-label="Imagem anterior">‹</button>
+        <button class="lightbox-next" id="lightboxNext" aria-label="Próxima imagem">›</button>
+        <div class="lightbox-content">
+            <img id="lightboxImage" src="" alt="">
+            <div class="lightbox-caption" id="lightboxCaption"></div>
+        </div>
+    </div>
+
+    <!-- Botão Voltar ao Topo -->
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

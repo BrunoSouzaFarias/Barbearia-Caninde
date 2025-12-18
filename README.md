@@ -229,10 +229,9 @@ O site foi desenvolvido com abordagem mobile-first e é totalmente responsivo:
 💬 WhatsApp: Configurado no código  
 🗺️ [Ver no Google Maps](https://www.google.com/maps/search/?api=1&query=R.+Paulo+de+Avelar,+1001+-+Vila+Dom+Pedro+II,+S%C3%A3o+Paulo+-+SP,+02243-010)
 
-## 🌐 Hospedagem
-
-O site pode ser hospedado em várias plataformas gratuitas. Aqui estão as melhores opções:
-
+```bash
+https://brunosouzafarias.github.io/Barbearia-Caninde/
+```
 
 ## 👤 Autor
 
